@@ -1,0 +1,9 @@
+/* npx tailwind build styles.css -o output.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Inter", sans-serif;
+}

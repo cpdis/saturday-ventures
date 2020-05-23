@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Saturday Ventures</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Your name" />
+    <meta name="description" content="A design and development consultancy." />
+    <meta property="og:title" content="Saturday Ventures" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="A design and development consultancy."
+    />
+    <meta property="og:image" content="/cool-image.png" />
+    <meta property="og:url" content="/here.html" />
+    <meta property="og:site_name" content="Saturday Ventures" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="cpdis" />
+    <meta name="twitter:title" content="Saturday Ventures" />
+    <meta
+      name="twitter:description"
+      content="A design and development consultancy."
+    />
+    <meta name="twitter:image:alt" content="image description" />
+    <link href="styles/output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Saturday Ventures</title>
+  </head>
+
+  <body>
+    <div class="text-center">
+      <h2
+        class="text-3xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-4xl sm:leading-10"
+      >
+        Saturday Ventures
+      </h2>
+      <form id="my-form">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" value="" required />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script>
+      window.sk =
+        window.sk ||
+        function () {
+          (sk.q = sk.q || []).push(arguments);
+        };
+
+      sk("form", "init", {
+        site: "b6aefa18ec74", // found under the Settings tab
+        form: "{your-form-key}", // the key used in statickit.json
+        element: "#my-form", // a selector pointing to the `<form>` element
+      });
+    </script>
+    <script defer src="https://js.statickit.com/statickit.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "saturday-ventures",
+  "version": "1.0.0",
+  "description": "A web design and development consultancy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpdis/saturday-ventures.git"
+  },
+  "author": "Colin Dismuke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpdis/saturday-ventures/issues"
+  },
+  "homepage": "https://github.com/cpdis/saturday-ventures#readme",
+  "devDependencies": {
+    "tailwindcss": "^1.4.6"
+  }
+}
