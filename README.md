@@ -23,24 +23,16 @@
 
 ## Install
 
-```sh
-npm install
-```
-
-## Run tests
-
-```sh
-npm run test
-```
+Just open `index.html`!
 
 ## Author
 
 👤 **Colin Dismuke**
 
-* Website: https://www.colindismuke.com
-* Twitter: [@cpdis](https://twitter.com/cpdis)
-* Github: [@cpdis](https://github.com/cpdis)
-* LinkedIn: [@colindismuke](https://linkedin.com/in/colindismuke)
+- Website: https://www.colindismuke.com
+- Twitter: [@cpdis](https://twitter.com/cpdis)
+- Github: [@cpdis](https://github.com/cpdis)
+- LinkedIn: [@colindismuke](https://linkedin.com/in/colindismuke)
 
 ## 🤝 Contributing
 
@@ -55,5 +47,6 @@ Give a ⭐️ if this project helped you!
 Copyright © 2020 [Colin Dismuke](https://github.com/cpdis).<br />
 This project is [ISC](https://github.com/cpdis/saturday-ventures/blob/master/LICENSE) licensed.
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
