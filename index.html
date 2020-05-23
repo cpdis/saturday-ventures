@@ -28,23 +28,31 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <title>Saturday Ventures</title>
   </head>
 
-  <body class="bg-gray-100">
+  <body class="bg-gray-100 h-screen">
     <div class="text-center">
       <h2
-        class="text-6xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-4xl sm:leading-10 p-6"
+        class="text-5xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-5xl sm:leading-10 p-6"
       >
         Saturday Ventures
       </h2>
-      <p class="pb-8">
-        I build modern websites for professionals—I'd love to work with you.
+      <p class="text-lg font-medium pb-8">
+        <a
+          class="hover:underline"
+          href="https://www.colindismuke.com"
+          target="_blank"
+          >I</a
+        >
+        build modern websites for professionals—I'd love to work with you.
       </p>
     </div>
 
-    <div class="w-full max-w-xs">
+    <div
+      class="container mx-auto h-full justify-center items-center w-full max-w-xs"
+    >
       <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" id="contact">
         <div class="mb-4">
           <label
@@ -71,12 +79,12 @@
             placeholder="hey@hey.com"
           />
         </div>
-        <div class="flex items-center justify-between">
+        <div class="flex justify-center">
           <button
-            class="bg-transparent hover:bg-gray-500 text-gray-700 font-regular hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded"
+            class="bg-transparent hover:bg-pink-500 text-gray-700 font-regular hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded"
             type="submit"
           >
-            Submit
+            Get in Touch
           </button>
         </div>
       </form>
@@ -96,6 +104,12 @@
         site: "9f20b2183892", // found under the Settings tab
         form: "contactForm", // the key used in statickit.json
         element: "#contact", // a selector pointing to the `<form>` element
+        onSuccess: function (config) {
+          var h = config.h;
+          var form = config.form;
+          var replacement = h("div", "Thanks for reaching out! 👍");
+          form.parentNode.replaceChild(replacement, form);
+        },
       });
     </script>
     <script defer src="https://js.statickit.com/statickit.js"></script>
