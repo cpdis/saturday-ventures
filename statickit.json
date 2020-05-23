@@ -1,1 +1,8 @@
-{}
+{
+  "forms": {
+    "contactForm": {
+      "name": "Contact Form",
+      "actions": [{ "type": "email", "to": "colin.dismuke@gmail.com" }]
+    }
+  }
+}
